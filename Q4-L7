@@ -1,0 +1,12 @@
+def aprovado(N1, N2):
+  Media = N1 * 2 + N2 * 3
+  Ponder = Media // (2 + 3)
+  if Ponder > 60:
+    return 'Aprovado'
+
+  else:
+   return 'Prova Final'
+
+N1 = int(input())
+N2 = int(input())
+print(aprovado(N1, N2))
